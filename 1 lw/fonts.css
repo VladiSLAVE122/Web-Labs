@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Oxygen;
+    src: url("src/fonts/Oxygen-Regular.ttf");
+}
+
+@font-face {
+    font-family: Lora;
+    src: url("src/fonts/Lora-VariableFont_wght.ttf");
+}
