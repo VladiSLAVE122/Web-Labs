@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+}
+
+.top-panel {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url("./src/img/canyon.jpg") no-repeat;
+  background-size: 100%;
+  background-position-y: center;
+  margin: 0;
+  width: 100%;
+  height: 500px;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 940px;
+  margin: 0 auto;
+  height: 74px;
+}
+
+.top-panel .panel {
+  height: 74px;
+  margin-bottom: 110px;
+}
+
+.icon {
+  width: 92px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.escape_white {
+  background-image: url(./src/img/Escape_white.svg);
+}
+
+.panel__container-link {
+  width: 100%;
+  font-family: 'Oxygen', serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(46, 46, 46, 1);
+  text-align: right;
+}
+
+.panel__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.top-panel .panel__link {
+  padding: 0 10px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+}
+
+.container-title__title {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 51px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.container-title__subtitle {
+  font-family: 'Oxygen', serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  opacity: 63%;
+  margin-bottom: 31px;
+}
+
+.container-title__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 167px;
+  height: 44px;
+  border-radius: 3px;
+  margin-bottom: 157px;
+  background: rgba(221, 120, 63, 1); 
+  font-family: 'Oxygen', serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none; 
+  user-select: none;
+} 
+
+
+
+.bottom-panel {
+  width: 100%;
+  height: 89px;
+  background: linear-gradient(rgba(35, 47, 56, 0.6), rgba(35, 47, 56, 0.6)),
+    url("src/img/footer.jpg");
+  background-size: 100%;
+  background-position-y: center;
+}
+
+.bottom-panel .panel {
+  height: 100%;
+}
+
+.bottom-panel .panel__link {
+  padding: 21px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 60%;
+  font-size: 11px;
+}
