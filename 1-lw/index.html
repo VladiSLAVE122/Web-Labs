@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Escape</title>
   <link rel="stylesheet" href="./style/style.css">
-  <link rel="stylesheet" href="./fonts.css">
+  <link rel="stylesheet" href="./style/fonts.css">
 </head>
 <body>
   
@@ -26,22 +26,154 @@
       </a>
     </div>
   </header>
-  <nav>
-    <ul>
-      <li><a href="">Nature</a></li>
-      <li><a href="">Photography</a></li>
-      <li><a href="">Relaxation</a></li>
-      <li><a href="">Vacation</a></li>
-      <li><a href="">Travel</a></li>
-      <li><a href="">Adventure</a></li>
+  <nav class="navigation-panel">
+    <ul class="navigation-panel__links-container">
+      <li><a class="navigation-panel__link" href="">Nature</a></li>
+      <li><a class="navigation-panel__link" href="">Photography</a></li>
+      <li><a class="navigation-panel__link" href="">Relaxation</a></li>
+      <li><a class="navigation-panel__link" href="">Vacation</a></li>
+      <li><a class="navigation-panel__link" href="">Travel</a></li>
+      <li><a class="navigation-panel__link" href="">Adventure</a></li>
     </ul>
   </nav>
 
-  <main class="container-blocks">
-    <p class="container-blocks__title">Featured Posts</p>
-    <div class=""
+  <main class="main-block">
+    <div class="featured">
+      <p class="featured__title">Featured Posts</p>
+      <hr class="underline">
+      <div class="featured__posts">
+        <div class="featured-post" style="background-image: url(/1-lw/src/img/polar-lights.png)">
+          <h1 class="featured-post__title">The Road Ahead</h1>
+          <h2 class="featured-post__subtitle">The road ahead might be paved - it might not be.</h2>
+          <div class="featured-post__information">
+            <div class="information__author">
+              <img class="information__avatar" src="./src/img/Mat-Vogels.jpeg" alt="Avatar of Mat Vogels">
+              <span class="information__text-featured">Mat Vogels</span>
+            </div>
+            <p class="information__text-featured">September 25, 2015</p>
+          </div>
+        </div>
+
+        <div class="featured-post" style="background-image: url(/1-lw/src/img/From-Top-Down.jpeg)">
+          <p class="featured-post__mark">ADVENTURE</p>
+          <h1 class="featured-post__title">From Top Down</h1>
+          <h2 class="featured-post__subtitle">Once a year, go someplace you’ve never been before.</h2>
+          <div class="featured-post__information">
+            <div class="information__author">
+              <img class="information__avatar" src="./src/img/William-Wong.jpeg" alt="Avatar of William Wong">
+              <span class="information__text-featured">William Wong</span>
+            </div>
+            <p class="information__text-featured">September 25, 2015</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="featured">
+      <p class="featured__title">More Recent</p>
+      <hr class="underline">
+      <div class="post-block">
+        <div class="post">
+          <img class="post__head-image" src="./src/img/Still-Standing-Tall.jpeg" alt="ballons">
+          <div class="post__text">
+            <h1 class="post__title">Still Standing Tall</h1>
+            <h2 class="post__subtitle">Life begins at the end of your comfort zone.</h2>
+          </div>
+          <hr class="post__underline">
+          <div class="post__information">
+            <div class="information__author">
+              <img class="information__avatar" src="./src/img/William-Wong.jpeg " alt="Avatar of William Wong">
+              <span class="information__text">William Wong</span>
+            </div>
+            <p class="information__text">9/25/2015</p>
+          </div>
+        </div>
+
+        <div class="post">
+          <img class="post__head-image" src="./src/img/Sunny-Side-Up.jpeg" alt="bridge">
+          <div class="post__text">
+            <h1 class="post__title">Sunny Side Up</h1>
+            <h2 class="post__subtitle">No place is ever as bad as they tell you it’s going to be.</h2>
+          </div>
+          <hr class="post__underline">
+          <div class="post__information">
+            <div class="information__author">
+              <img class="information__avatar" src="./src/img/Mat-Vogels.jpeg " alt="Avatar of Mat Vogels">
+              <span class="information__text">Mat Vogels</span>
+            </div>
+            <p class="information__text">9/25/2015</p>
+          </div>
+        </div>
+
+        <div class="post">
+          <img class="post__head-image" src="./src/img/Water-Falls.jpeg" alt="lake">
+          <div class="post__text">
+            <h1 class="post__title">Water Falls</h1>
+            <h2 class="post__subtitle">We travel not to escape life, but for life not to escape us.</h2>
+          </div>
+          <hr class="post__underline">
+          <div class="post__information">
+            <div class="information__author">
+              <img class="information__avatar" src="./src/img/Mat-Vogels.jpeg " alt="Avatar of Mat Vogels">
+              <span class="information__text">Mat Vogels</span>
+            </div>
+            <p class="information__text">9/25/2015</p>
+          </div>
+        </div>
+
+        <div class="post">
+          <img class="post__head-image" src="./src/img/Through-the-Mist.jpeg" alt="waves">
+          <div class="post__text">
+            <h1 class="post__title">Through the Mist</h1>
+            <h2 class="post__subtitle">Travel makes you see what a tiny place you occupy in the world.</h2>
+          </div>
+          <hr class="post__underline">
+          <div class="post__information">
+            <div class="information__author">
+              <img class="information__avatar" src="./src/img/William-Wong.jpeg " alt="Avatar of William Wong">
+              <span class="information__text">William Wong</span>
+            </div>
+            <p class="information__text">9/25/2015</p>
+          </div>
+        </div>
+
+        <div class="post">
+          <img class="post__head-image" src="./src/img/Awaken-Early.jpeg" alt="fog">
+          <div class="post__text">
+            <h1 class="post__title">Awaken Early</h1>
+            <h2 class="post__subtitle">Not all those who wander are lost.</h2>
+          </div>
+          <hr class="post__underline">
+          <div class="post__information">
+            <div class="information__author">
+              <img class="information__avatar" src="./src/img/Mat-Vogels.jpeg " alt="Avatar of Mat Vogels">
+              <span class="information__text">Mat Vogels</span>
+            </div>
+            <p class="information__text">9/25/2015</p>
+          </div>
+        </div>
+
+        <div class="post">
+          <img class="post__head-image" src="./src/img/Try-it-Always.jpeg" alt="lake">
+          <div class="post__text">
+            <h1 class="post__title">Try it Always</h1>
+            <h2 class="post__subtitle">The world is a book, and those who do not travel read only one page.</h2>
+          </div>
+          <hr class="post__underline">
+          <div class="post__information">
+            <div class="information__author">
+              <img class="information__avatar" src="./src/img/Mat-Vogels.jpeg " alt="Avatar of Mat Vogels">
+              <span class="information__text">Mat Vogels</span>
+            </div>
+            <p class="information__text">9/25/2015</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
-  <!-- <footer class="bottom-panel">
+
+
+  <footer class="bottom-panel">
     <div class="panel">
       <p class="icon escape_white"></p>
       <nav class="panel__container-link">
@@ -51,6 +183,6 @@
         <a class="panel__link" href="">CONTACT</a>
       </nav>
     </div>
-  </footer> -->
+  </footer>
 </body>
 </html>
